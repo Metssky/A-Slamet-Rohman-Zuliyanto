@@ -154,3 +154,13 @@ console.log(divideNumbers(30, 2));
 console.log(divideNumbers(14, 0));
 console.log(divideNumbers(15, "z"));
 console.log(divideNumbers(15));
+
+//Practice Array
+let antrian = ["ray", "fiki", "fadhilla", "farah"];
+antrian.push("nabila");
+antrian.push("maza", "elsi");
+antrian.pop();
+antrian.shift();
+antrian.shift();
+antrian.unshift("tomi");
+console.log(antrian);
